@@ -1,0 +1,90 @@
+*{
+	box-sizing:border-box;
+}
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+
+
+
+
+
+.hat{
+
+margin-bottom: 10px;
+}
+.inner-hat{
+	font-family: "Times New Roman", Serif;
+font-size:150px;
+background:#50BA00;
+height: 200px;
+	
+}
+ 
+ .content{
+	
+	 width: 70%;
+	 float: left;
+ }
+ .inner-content{ 
+background:#ADAEAB;
+min-height: 500px;
+font-size: 20px;
+}
+.ssilk{
+ width: 30%;
+ float: left;
+padding-left: 10px;
+ 
+	 
+ }
+.inner-ssilk{
+
+min-height: 100px;
+color: white;	
+}
+.kartink{
+	width: 30%;
+ float: left;
+padding-left: 10px;
+}
+.inner-kartink{
+	min-height: 50px;
+background:white;
+
+}
+.down{
+	margin-top: 10px;
+background:#ECECEC;
+height: 369px;
+}
+
+#nav{margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 200px;
+      }
+      #nav li {
+        border-left: 10px solid #666;
+        border-bottom: 1px solid #666;
+      }
+       #nav a {
+        background-color: #949494;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        border-left: 5px solid #33ADFF;
+        display: block;
+      }
